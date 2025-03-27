@@ -1,0 +1,100 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 20px;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Headings */
+h1, h2 {
+    color: #333;
+}
+
+/* Form Styling */
+form {
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    display: inline-block;
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+form input, form button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/* Button Styling */
+button {
+    background-color: #28a745;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #218838;
+}
+
+/* Table Styling */
+table {
+    width: 100%; /* ✅ Full width */
+    max-width: 1200px; /* Ensures it doesn’t get too stretched */
+    margin: auto;
+    border-collapse: collapse;
+    background: white;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+th, td {
+    padding: 12px;
+    border: 1px solid #ddd;
+    text-align: center;
+}
+
+th {
+    background-color: #007bff;
+    color: white;
+}
+
+/* Image Styling */
+td img {
+    border-radius: 5px;
+}
+
+/* Links */
+a {
+    text-decoration: none;
+    color: #007bff;
+    font-weight: bold;
+    margin-right: 10px;
+}
+
+a:hover {
+    color: #0056b3;
+}
+
+/* Dashboard Link */
+a[href="admin_dashboard.php"] {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 15px;
+    background: #007bff;
+    color: white;
+    border-radius: 5px;
+}
+
+a[href="admin_dashboard.php"]:hover {
+    background: #0056b3;
+}
