@@ -1,8 +1,8 @@
 <?php
 $host = "localhost";  // Change if MySQL runs on a different port
-$username = "root";   // Your MySQL username
-$password = "Paras@12";       // Your MySQL password (leave empty if no password)
-$dbname = "food_ordering"; // Your database name
+$username = "xxxx";   // Your MySQL username
+$password = "xxxxxxxxxxx";       // Your MySQL password (leave empty if no password)
+$dbname = "db_name"; // Your database name
 
 try {
     $pdo = new PDO("mysql:host=$host;dbname=$dbname", $username, $password);
