@@ -33,13 +33,13 @@ try {
     $mail->isSMTP();
     $mail->Host = 'smtp.gmail.com';
     $mail->SMTPAuth = true;
-    $mail->Username = 'innocentone648@gmail.com'; // Admin email
-    $mail->Password = 'oquo gchh huqz pquv'; // Gmail App Password
+    $mail->Username = 'admin@gmail.com'; // Admin email
+    $mail->Password = 'xxxx xxxx xxxx xxxx'; // Gmail App Password
     $mail->SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS;
     $mail->Port = 587;
 
     // ✅ Email details
-    $mail->setFrom('innocentone648@gmail.com', 'Tuckin Food Order');
+    $mail->setFrom('admin@gmail.com', 'Tuckin Food Order');
     $mail->addAddress($user_email);
 
     // ✅ Email content
