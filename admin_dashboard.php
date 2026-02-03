@@ -1,7 +1,7 @@
 <?php
 session_start();
 if (!isset($_SESSION['admin_id'])) {
-    die("❌ Access denied. <a href='adminlogin.html'>Admin Login</a>");
+    die(" ❌ Access denied. <a href='adminlogin.html'>Admin Login</a>");
 }
 ?>
 
@@ -115,3 +115,4 @@ if (!isset($_SESSION['admin_id'])) {
 
 </body>
 </html>
+
