@@ -2,7 +2,7 @@
 session_start();
 include 'db_connection.php';
 
-if ($_SERVER["REQUEST_METHOD"] === "POST") {
+if ($_SERVER["REQUEST_METHOD"] === "POST") { 
     if (!isset($_POST['email'], $_POST['password'])) {
         die("❌ Missing email or password. <a href='adminlogin.php'>Try again</a>");
     }
